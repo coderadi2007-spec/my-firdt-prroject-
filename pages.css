@@ -1,0 +1,57 @@
+.page-hero {
+  height: 50vh;
+  background: linear-gradient(135deg, #0a0f2a, #050816);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.page-hero h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.legal-page {
+  min-height: 70vh;
+  padding: 120px 0 80px;
+}
+
+.legal-content {
+  background: rgba(255,255,255,0.03);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.legal-content h1 {
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.legal-content h2 {
+  margin: 30px 0 15px;
+  font-size: 28px;
+}
+
+.legal-content p {
+  line-height: 1.8;
+  color: var(--text-dim);
+}
+
+.timeline-wrapper {
+  position: relative;
+  padding-left: 30px;
+  border-left: 2px solid var(--primary);
+}
+
+.timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline-year {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+}
